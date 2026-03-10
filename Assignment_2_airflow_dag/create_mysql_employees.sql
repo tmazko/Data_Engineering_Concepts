@@ -76,4 +76,4 @@ INSERT INTO employees (full_name, team, role, hire_date) VALUES
 ('Jack Roberts', 'Support Alpha', 'Junior Agent', '2023-09-15');
 
 
-
+select * from employees;
