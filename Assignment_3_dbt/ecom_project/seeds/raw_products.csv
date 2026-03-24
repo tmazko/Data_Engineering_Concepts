@@ -1,0 +1,41 @@
+product_id,name,category,price,cost
+1,Electronic Item 1,Electronics,108.61,56.98
+2,Book Item 2,Books,163.39,81.74
+3,Clothin Item 3,Clothing,275.19,151.85
+4,Clothin Item 4,Clothing,147.85,75.48
+5,Sport Item 5,Sports,363.5,224.17
+6,Clothin Item 6,Clothing,422.95,278.57
+7,Clothin Item 7,Clothing,252.32,166.61
+8,Electronic Item 8,Electronics,414.68,222.44
+9,Sport Item 9,Sports,199.78,89.52
+10,Electronic Item 10,Electronics,264.29,141.79
+11,Book Item 11,Books,48.15,25.59
+12,Sport Item 12,Sports,325.29,186.73
+13,Home & Garde Item 13,Home & Garden,136.95,81.99
+14,Home & Garde Item 14,Home & Garden,126.74,86.6
+15,Book Item 15,Books,58.01,30.26
+16,Sport Item 16,Sports,305.12,156.49
+17,Clothin Item 17,Clothing,204.12,97.74
+18,Electronic Item 18,Electronics,378.66,214.23
+19,Clothin Item 19,Clothing,266.44,167.89
+20,Clothin Item 20,Clothing,321.8,193.91
+21,Home & Garde Item 21,Home & Garden,394.67,200.58
+22,Electronic Item 22,Electronics,58.11,23.92
+23,Electronic Item 23,Electronics,214.98,145.31
+24,Sport Item 24,Sports,336.85,169.9
+25,Electronic Item 25,Electronics,157.97,73.51
+26,Sport Item 26,Sports,182.03,121.84
+27,Clothin Item 27,Clothing,114.9,63.25
+28,Home & Garde Item 28,Home & Garden,272.86,153.99
+29,Home & Garde Item 29,Home & Garden,235.36,107.04
+30,Home & Garde Item 30,Home & Garden,17.71,11.95
+31,Electronic Item 31,Electronics,68.91,41.72
+32,Sport Item 32,Sports,177.8,99.27
+33,Book Item 33,Books,167.3,74.3
+34,Clothin Item 34,Clothing,303.68,123.53
+35,Clothin Item 35,Clothing,130.31,76.2
+36,Home & Garde Item 36,Home & Garden,187.26,99.71
+37,Electronic Item 37,Electronics,464.94,206.61
+38,Clothin Item 38,Clothing,323.23,217.95
+39,Sport Item 39,Sports,213.32,87.12
+40,Clothin Item 40,Clothing,241.88,117.42

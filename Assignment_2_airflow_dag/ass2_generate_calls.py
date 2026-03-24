@@ -92,4 +92,4 @@ def generate_mock_data(num_calls=5):
             conn.close()
 
 if __name__ == "__main__":
-    generate_mock_data(10)
+    generate_mock_data(50)

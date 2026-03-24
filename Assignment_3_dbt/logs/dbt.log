@@ -1,0 +1,45 @@
+[0m21:11:47.756740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018810121BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000188112E3D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000188112E39D0>]}
+
+
+============================== 21:11:47.786783 | a083e1d9-3bff-4f25-a13e-3b5fcc73edef ==============================
+[0m21:11:47.786783 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:11:47.789541 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Таня\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init ecom_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:11:47.898401 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Таня\.dbt
+[0m21:11:47.907563 [debug] [MainThread]: Starter project path: D:\KSE\Data_Engineering\Data_Engineering_Python_project\dbt_project\jaffle_shop_duckdb\venv\Lib\site-packages\dbt\include\starter_project
+[0m21:11:47.981311 [info ] [MainThread]: 
+Your new dbt project "ecom_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:11:47.983770 [info ] [MainThread]: Setting up your profile.
+[0m21:12:10.357100 [info ] [MainThread]: Profile ecom_project written to C:\Users\Таня\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m21:12:10.360305 [debug] [MainThread]: Command `dbt init` succeeded at 21:12:10.359886 after 23.03 seconds
+[0m21:12:10.361245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001881234EEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018810C2B650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018812371AE0>]}
+[0m21:12:10.362182 [debug] [MainThread]: Flushing usage events
+[0m21:12:11.857133 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:25:45.781384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DC4941BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DC5B0BD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DC5B0B9D0>]}
+
+
+============================== 15:25:45.807704 | 5f50c206-fe5b-47be-a34d-0964dafb55c3 ==============================
+[0m15:25:45.807704 [info ] [MainThread]: Running with dbt=1.11.6
+[0m15:25:45.810386 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Таня\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:25:45.812813 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\KSE\Data_Engineering\Data_Engineering_Python_project\dbt_project\ecom_duckdb\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:25:45.817460 [debug] [MainThread]: Command `dbt run` failed at 15:25:45.816928 after 0.47 seconds
+[0m15:25:45.818961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DC59D7CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DC6B40710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DC5991E10>]}
+[0m15:25:45.820446 [debug] [MainThread]: Flushing usage events
+[0m15:25:47.037297 [debug] [MainThread]: An error was encountered while trying to flush usage events
